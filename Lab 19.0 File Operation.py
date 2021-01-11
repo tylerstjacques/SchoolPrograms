@@ -1,0 +1,5 @@
+file_name = input("Enter the name of a file")
+f = open(file_name, 'r')
+line = f.readlines(5)
+f.close()
+print(line)
